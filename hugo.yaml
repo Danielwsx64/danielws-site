@@ -28,7 +28,7 @@ params:
   profileMode:
     enabled: true
     title: "Daniel Lima"
-    subtitle: "Just a dev sharing thoughts on Elixir, Vim, tech leadership — just the usual dev brain dump."
+    subtitle: "Just a dev sharing thoughts on Elixir, Vim and tech stuff — just the usual dev brain dump."
     imageUrl: "images/avatar.png"
     imageTitle: "Daniel Lima avatar IA generated as a Pixar Art"
     imageWidth: 180
