@@ -20,10 +20,11 @@ params:
   ShowToc: true
   ShowBreadCrumbs: true
 
+
   editPost:
-    URL: "https://github.com/danielwsx64/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    URL: "https://github.com/Danielwsx64/danielws-site"
+    Text: "Suggest Changes"
+    appendFilePath: true
 
   profileMode:
     enabled: true
