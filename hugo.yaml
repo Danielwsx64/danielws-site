@@ -20,6 +20,11 @@ params:
   ShowToc: true
   ShowBreadCrumbs: true
 
+  editPost:
+    URL: "https://github.com/danielwsx64/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
   profileMode:
     enabled: true
     title: "Daniel Lima"
@@ -36,3 +41,4 @@ params:
       url: "https://github.com/Danielwsx64"
     - name: "email"
       url: "mailto:contato@daniel.ws"
+
