@@ -1,3 +1,38 @@
 baseURL: https://daniel.ws/
 languageCode: en-us
-title: Daniel Lima web blog
+title: DanielWS
+theme: ["PaperMod"]
+outputs:
+  home:
+    - HTML
+    - JSON
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+
+params:
+  defaultTheme: dark
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+
+  profileMode:
+    enabled: true
+    title: "Daniel Lima"
+    subtitle: "Just a dev sharing thoughts on Elixir, Vim, tech leadership — just the usual dev brain dump."
+    imageUrl: "images/avatar.png"
+    imageTitle: "Daniel Lima avatar IA generated as a Pixar Art"
+    imageWidth: 180
+    imageHeight: 180
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/danielwsl"
+    - name: "github"
+      url: "https://github.com/Danielwsx64"
+    - name: "email"
+      url: "mailto:contato@daniel.ws"
