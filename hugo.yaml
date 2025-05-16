@@ -1,5 +1,6 @@
 baseURL: https://daniel.ws/
 languageCode: en-us
+env: production
 title: DanielWS
 theme: ["PaperMod"]
 outputs:
@@ -14,15 +15,21 @@ menu:
       url: /search/
       weight: 10
 
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
 params:
   defaultTheme: dark
   ShowReadingTime: true
   ShowToc: true
   ShowBreadCrumbs: true
-
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
 
   editPost:
-    URL: "https://github.com/Danielwsx64/danielws-site"
+    URL: "https://github.com/Danielwsx64/danielws-site/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
